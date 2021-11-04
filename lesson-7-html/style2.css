@@ -1,0 +1,9 @@
+[href*="google"] {
+    color: #666;
+}
+[href*="yandex"] {
+    color: orange;
+}
+[href*="grodno"] {
+    color: blue;
+}
