@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <style>
+        div {
+            padding-top: 20px;
+        }
+        form {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+  <h2>Sign up to the app</h2>
+  <form>
+      <fieldset>
+          <legend>Personal information:</legend>
+          <p>First name:</p>
+            <input type="text" value="Mickey">
+          <p>Last name:</p>
+            <input type="text" value="Mouse">
+          <p>Self-presentation:</p>
+            <input type="text" value="The cat was playing in the garden." size="100">
+      </fieldset>
+  </form>
+  <form>
+      <fieldset>
+          <legend>Car info(the brand):</legend>
+          <select>
+              <option>Volvo</option>
+              <option>Saab</option>
+              <option>Fiat</option>
+              <option>Audi</option>
+          </select>
+      </fieldset>
+  </form>
+  <form>
+      <fieldset>
+          <legend>Choose one:</legend>
+          <input type="radio" id="Choice1" name="sex" value="Male">
+          <label for="Choice1">Male</label><br>
+          <input type="radio" id="Choice2" name="sex" value="Female">
+          <label for="Choice2">Female</label><br>
+          <input type="radio" id="Choice3" name="sex" value="Other">
+          <label for="Choice3">Other</label>
+      </fieldset>
+  </form>
+  <form>
+      <fieldset>
+          <legend>Choose many</legend>
+          <input type="checkbox">I have a bike<br>
+          <input type="checkbox">I have a car
+      </fieldset>
+  </form>
+  <div>
+      <button type="submit">Submit</button>
+      <button type="reset">Cancel</button>
+  </div>
+</body>
+</html>
