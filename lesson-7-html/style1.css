@@ -1,0 +1,38 @@
+h1{
+    color: orange;
+    text-align: right;
+}
+p:first-letter{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+em{
+    color: white;
+    background-color: green;
+}
+#ogorod.plants h2 {color: orange;}
+.plants ul {font-weight: bold;}
+#ogorod.plants .fruits{color: grey;
+    font-weight: normal;}
+#ogorod.plants .vegetables{color: red;
+    font-weight: normal;}
+
+#sklad.plants h2 {color: blue;}
+#sklad.plants .fruits {color: green;
+    font-weight: normal;}
+#sklad.plants .vegetables {color: red;
+    font-weight: normal;}
+thead{
+    font-weight: bold;
+    text-align: center;
+}
+tbody tr > td:first-child{
+    color: orange;
+    background-color: white;
+}
+tbody{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
