@@ -1,0 +1,51 @@
+input {
+    display: none;
+}
+label:first-of-type {
+    color: tomato;
+}
+label:last-of-type {
+    color: blue;
+}
+label {
+    color: green;
+    text-decoration: underline;
+    margin: 15px;
+}
+div {
+    font-size: 25px;
+}
+.red {
+    background-color: red;
+    color: white;
+}
+.green {
+    background-color: green;
+    color: white;
+}
+.blue {
+    background-color: blue;
+    color: white;
+}
+span {
+    border-radius: 10px;
+    padding: 5px;
+}
+#red:checked~.red {
+    display: none;
+}
+#green:checked~.green {
+    display: none;
+}
+#blue:checked~.blue {
+    display: none;
+}
+#red:checked~label:first-of-type {
+    opacity: 50%;
+}
+#blue:checked~label:last-of-type {
+    opacity: 50%;
+}
+#green:checked~label:nth-of-type(2) {
+    opacity: 50%;
+}
