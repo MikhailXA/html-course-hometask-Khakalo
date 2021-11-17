@@ -1,0 +1,73 @@
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.background {
+  width: 235px;
+  padding-top: 25px;
+  position: relative;
+  display: inline-block;
+  height: 355px;
+  background-color: #EE8129;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+.front {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  top: 70px;
+  background-color: white;
+  width: 220px;
+  height: 310px;
+  }
+button {
+  background-color: #EE8129;
+  width: 200px;
+  height: 33px;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin: auto;
+  cursor: pointer;
+  }
+div {
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+  margin-left: 630px;
+  }
+li:nth-child(odd) {
+  background-color: #EDF5FD;
+}
+li:nth-child(even) {
+  background-color: #F5F5F6;
+}
+li {
+  border-radius: 1px;
+  margin: 5px 10px 5px 1px;
+  text-align: left;
+  font-size: 14px;
+  padding: 3px 10px;
+}
+ul {
+  list-style-image: url("arrow.png");
+  margin-top: 15px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h3 {
+  font-size: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+sub {
+  font-size: 15px;
+}
+sup {
+  font-size: 15px;
+}
