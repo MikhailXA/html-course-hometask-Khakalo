@@ -1,0 +1,53 @@
+#customers {
+  margin-top: 20px;
+}
+#customers img {
+  width: 630px;
+  height: 400px;
+  box-shadow: 12px 9px 15px -7px rgba(34, 60, 80, 0.2);
+  border-radius: 3px;
+}
+.customer1-about {
+  display: inline-block;
+  text-align: right;
+  position: absolute;
+  top: 120px;
+}
+.customer2-about {
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  top: 120px;
+  left: 63px;
+  padding: 10px;
+  float: left;
+}
+.name {
+  color: red;
+  font-size: 25px;
+  margin: 0 auto;
+}
+.sub-name {
+  color: gray;
+  font-weight: bold;
+  font-size: 12px;
+  border:transparent;
+  margin: 0 auto;
+}
+.comments {
+  color: black;
+  border: transparent;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+.customer2 {
+  margin-top: 20px;
+  position: relative;
+  left: 210px;
+  text-align: center;
+}
+.customer1 {
+  position: relative;
+  left: -150px;
+  text-align: center;
+}
