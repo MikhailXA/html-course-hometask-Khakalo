@@ -1,0 +1,67 @@
+* {
+  font-family: "Arial Black";
+  font-size: 15px;
+}
+.mercedes {
+  width: 50%;
+  border: 3px solid black;
+  padding: 20px;
+  box-shadow: 11px 11px 6px -1px rgba(34, 60, 80, 0.2);
+}
+img {
+  width: 525px;
+  height: 310px;
+}
+.mercedes__model {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.mercedes__name {
+  text-decoration: none;
+}
+.mercedes__description {
+  display: flex;
+}
+.mercedes__about {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px 39px 31px;
+}
+button {
+  display: inline-block;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 0.75em;
+  margin: 0;
+  max-width: 100%;
+  height: 2.5em;
+  border: none;
+  border-radius: 0.25em;
+  box-shadow:
+          0 0.25em 0.4em rgba(50, 50, 93, .11),
+          0 0.1em 0.25em rgba(0, 0, 0, .08);
+}
+button:hover {
+  color: red;
+  box-shadow:
+          0 0.8em 1.8em -0.3em rgba(50, 50, 93, .25),
+          0 0.5em 1em -0.5em rgba(0, 0, 0, 0.3);
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+button:active {
+  color: blue;
+  box-shadow: initial;
+  transform: translateY(0);
+}
+a:hover {
+  color: red;
+  box-shadow:
+          0 0.8em 1.8em -0.3em rgba(50, 50, 93, .25),
+          0 0.5em 1em -0.5em rgba(0, 0, 0, 0.3);
+  }
+a:active {
+  color: blue;
+  box-shadow: initial;
+}
